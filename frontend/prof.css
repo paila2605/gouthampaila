@@ -1,0 +1,159 @@
+ body {
+    background: #A770EF;
+    background: linear-gradient(to right, #e68157da, #CF8BF3, #A770EF);
+  } 
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -90px;
+  }
+
+  .logo {
+    height: 200px;
+    margin-top: -45px;
+  }
+
+  .search-bar {
+    margin-top: -250px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 11px;
+    outline: none;
+    border: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+    transition: all 0.4s;
+  }
+
+  .search-bar:hover{
+     background-color:#efefefde;            
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.25);
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 10%;
+    align-items: center;
+    transition: all 0.4s;
+  }
+
+  .navbar-item {
+    text-decoration: none;
+    background-color: rgba(97, 99, 96, 0.682);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left:10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+    transition: all 0.4s; 
+  }
+  
+  .navbar:hover{
+    transform:translateX(-6px);
+  }
+
+  .container {
+    height: 150vh;
+    width: 150vw;
+    max-height: 800px;
+    max-width: 1280px;
+    min-height: 600px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .border {
+    height: 200px;
+    width: 200px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+  }
+  
+  .border:hover {
+    border: 1px solid #000000;
+  }
+  
+  h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #181616;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  h2:hover {
+    color: #dae477;
+    cursor: pointer;
+  }
+  
+  .fa {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .card {
+    height: 200px;
+    width: 200px;
+    background: #808080;
+    border-radius: 10px;
+    transition:all 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .card1 {
+    background: url("dostcast.png") center center no-repeat;
+    background-size: 250px;
+  }
+  
+  .card1:hover {
+    background: url("dostcast2.jpg") left center no-repeat;
+    background-size: 300px;
+  }
+  
+  .card1:hover h2 {
+    opacity: 1;
+  }
+  
+  .card1:hover .fa {
+    opacity: 1;
+  }
+  
+
+  
+  .icon:hover {
+    color: #000000;
+    cursor: pointer;
+  } 
+/*   
+  .icons {
+    position: absolute;
+    fill: #cb7878;
+    color: #95eacb;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  } */

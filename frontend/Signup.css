@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgb(232, 238, 174) 0%, rgba(148,187,233,1) 100%);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.login-box{
+    width: 320px;
+    height: 490px;
+    background: linear-gradient( rgba(148, 188, 233, 0.404),rgb(223, 228, 180));
+    color: #000000;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+}
+.logo{
+    width: 130px;
+    height: 90px;
+    border-radius: 10%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 68px);
+    filter: brightness(90%);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000000;
+    font-size: 16px;
+}
+.login-box input[type="text"]:hover, input[type="password"]:hover{
+    transform: translateY(4px);
+    transition: all 0.4s;
+}
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #0f4266;
+}
+.login-box a:hover
+{
+    color: #f38200;
+} 
+::placeholder{
+    color: #000000;
+    opacity: 0.3456789;
+}
+.heading{
+  /* text-decoration: none;
+  border: 0.1px solid rgba(0, 0, 0, 0.301);
+  border-radius: 20px;
+  padding:8px;
+  background-color: rgba(238, 197, 197, 0.419);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.323); */
+  /* margin: 25px 0px 0px 700px; */
+  position:absolute;
+  top:13%;
+  left:33%;
+  transition: all 0.4s;
+}
+/* .heading:hover{
+  transform: rotate(-5deg);
+  box-shadow: 0 5px 10px rgb(0, 0, 0, 0.2);
+} */
+button{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #77b8e7;
+    color: #000000;
+    font-size: 14px;
+    border-radius:25px;
+    width:30%;
+    margin: 8px 3px 0px 90px;
+    top:10%;
+     }
+button:hover {
+    background: conic-gradient(rgba(97, 98, 99, 0.726),rgba(224, 220, 220, 0.747));
+    color: #000;
+    transform: translateY(-5px);
+    transition:0.5s;
+    box-shadow: 0 6px 6px rgb(0, 0, 0, 0.6);
+}
+.mt-small{
+    margin-top: 40px;
+}
